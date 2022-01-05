@@ -1,3 +1,7 @@
+---
+layout: home 
+---
+
 ## Work in progress
 
 My [github repo](https://github.com/zachkarol430)
