@@ -4,4 +4,4 @@ author:
   email: zachkarol430@gmail.com
 
 
-theme: jekyll-theme-cayman
+remote_theme: jekyll/minima
