@@ -25,4 +25,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-staticman_url: https://comment-system-zach-karol.herokuapp.herokuapp.com/v2/entry/zachkarol430/zachkarol430.github.io/main/comments
+staticman_url: https://comment-system-zach-karol.herokuapp.com/v2/entry/zachkarol430/zachkarol430.github.io/main/comments
