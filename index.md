@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+comments: true
 ---
 
 ## Work in progress
