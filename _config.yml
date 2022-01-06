@@ -1,7 +1,10 @@
+url: "https://zachkarol430.github.io/"
 title: Personal Site
-author:
-  name: zach karol
-  email: zachkarol430@gmail.com
+ name: zach karol
+ email: zachkarol430@gmail.com
 
 
-remote_theme: jekyll/minima
+theme: minima
+pluginins:
+  - jekyll-feed
+
