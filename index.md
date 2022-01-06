@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Home
 ---
+
+## Work in progress
+
+My [github repo](https://github.com/zachkarol430)
+my [movie site](https://evening-scrubland-99469.herokuapp.com)
