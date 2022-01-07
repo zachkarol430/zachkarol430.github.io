@@ -1,5 +1,8 @@
 ---
 title: home
+comments: true
 ---
 
-Hello
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
