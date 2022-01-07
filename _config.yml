@@ -3,7 +3,7 @@ title: information
 email: zachkarol430@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   work in prog
-url: "zachkarol430.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zachkarol430.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zachkarol430
 
 author: Zach Karol
