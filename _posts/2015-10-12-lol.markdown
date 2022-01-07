@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: This is my Hello World sample blog post
+comments: true
 ---
 
 # Welcome
