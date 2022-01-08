@@ -35,6 +35,7 @@ comments:
   provider  : "staticman"
   staticman:
     branch    : "main"
+    endpoint: "https://comment-system-zach-karol.herokuapp.com/v3/entry/zachkarol430/zachkarol430.github.io/main/comments"
 
 include:
   - _pages
