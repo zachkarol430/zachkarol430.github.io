@@ -30,34 +30,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-staticman_url: https://comment-system-zach-karol.herokuapp.com/v2/entry/zachkarol430/zachkarol430.github.io/main/comments
+
 
 repository  : "zachkarol430/zachkarol430.github.io"
 comments:
-  provider  : "staticman_v2"
+  provider  : "staticman"
   staticman:
     branch    : "main"
-    endpoint: https://comment-system-zach-karol.herokuapp.com/v2/entry/zachkarol430/zachkarol430.github.io/main/comments
+    endpoint: "https://comment-system-zach-karol.herokuapp.com/v3/entry/zachkarol430/zachkarol430.github.io/main/comments"
 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
     
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      comments: true
-
-# _config.yml (defaults)
-include: ["_pages"]
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true

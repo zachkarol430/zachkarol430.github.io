@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="information">
 <meta property="og:title" content="information">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:url" content="https://zachkarol430.github.io//">
 
 
   <meta property="og:description" content="work in prog">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="https://zachkarol430.github.io//">
 
 
 
@@ -45,7 +45,7 @@
     
       "@type": "Person",
       "name": null,
-      "url": "http://localhost:4000/"
+      "url": "https://zachkarol430.github.io//"
     
   }
 </script>
@@ -131,89 +131,6 @@
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url"></a>
-    </h3>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-  
-  </div>
-
 
 
   <div class="archive">
@@ -296,45 +213,6 @@
 
 
     
-  <script>
-    (function ($) {
-    $('#new_comment').submit(function () {
-      var form = this;
-
-      $(form).addClass('disabled');
-      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Loading...');
-
-      $.ajax({
-        type: $(this).attr('method'),
-        url: $(this).attr('action'),
-        data: $(this).serialize(),
-        contentType: 'application/x-www-form-urlencoded',
-        success: function (data) {
-          $('#comment-form-submit').html('Submitted');
-          $('.page__comments-form .js-notice').removeClass('notice--danger');
-          $('.page__comments-form .js-notice').addClass('notice--success');
-          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
-        },
-        error: function (err) {
-          console.log(err);
-          $('#comment-form-submit').html('Submit Comment');
-          $('.page__comments-form .js-notice').removeClass('notice--success');
-          $('.page__comments-form .js-notice').addClass('notice--danger');
-          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
-          $(form).removeClass('disabled');
-        }
-      });
-
-      return false;
-    });
-
-    function showAlert(message) {
-      $('.page__comments-form .js-notice').removeClass('hidden');
-      $('.page__comments-form .js-notice-text').html(message);
-    }
-  })(jQuery);
-  </script>
-
 
   
 
