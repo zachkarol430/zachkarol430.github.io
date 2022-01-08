@@ -1,9 +1,8 @@
 ---
+layout: page
 title: About
+permalink: /about/
 comments: true
 ---
 
-
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}
+helllo
