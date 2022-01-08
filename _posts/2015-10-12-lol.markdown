@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: This is my Hello World sample blog post
 comments: true
 ---

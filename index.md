@@ -1,5 +1,5 @@
 ---
-title: home
+layout: home
 comments: true
 ---
 
