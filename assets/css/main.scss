@@ -1,0 +1,21 @@
+---
+#empty
+---
+
+#x {--x:0}
+
+$box-shadow: 10px 5px 5px rgba(0, 0,100, .2);
+$border-radius: 15px;
+$border-color: rgba(0, 0, 0, 0.986);
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+
+//
+// Staticman new comment form
+//
+
+//
+
