@@ -55,6 +55,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 author:
   name   : "Zach Karol"
@@ -64,10 +65,14 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zachkarol430"
+    - label: "Linkden"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/zachary-karol-4558871b6/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/zachkarol02"
 
+google_site_verification : "google-site-verification=Y3B3ENcm5gne2TMSuchOeVGwlgOPGTxB1vh--mpE1yQ"
 
 defaults:
   # _posts

@@ -4,6 +4,7 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem 'jekyll-seo-tag'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -13,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-include-cache"
 end
+
 
 
 #JEKYLL_ENV=production bundle exec jekyll serve
