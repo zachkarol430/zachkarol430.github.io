@@ -4,6 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
+title: Purpose of this website
 ---
 
-Hello this is my website press on about me for more
+
+
+This site serves as a personal site for me, Zach Karol. I plan on adding blog posts which can be clicked on in posts. To learn more about me you can click on about me. This website will be periodically updated. 

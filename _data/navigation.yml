@@ -4,4 +4,6 @@ main:
     url: http://zachkarol430.github.io/about/
   - title: "Posts"
     url: http://zachkarol430.github.io/posts
+  - title: "Home"
+    url: https://www.zachkarol.com/
 
