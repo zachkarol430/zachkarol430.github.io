@@ -6,7 +6,7 @@ layout: home
 author_profile: true
 title: Purpose of this website
 header: 
-  image: "assets/images/Kayaking_teton.jpg"
+  image: "assets/images/Kayaking_teton.JPG"
 ---
 
 
