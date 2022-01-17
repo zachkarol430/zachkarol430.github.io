@@ -26,7 +26,7 @@ If there are any issues or bugs please let me know in the comments
 
 Last note: The website may take time to boot up, so be patient
 
-[movie site](https://evening-scrubland-99469.herokuapp.com/){:target="_blank"}
+# [movie site](https://evening-scrubland-99469.herokuapp.com/){:target="_blank"}
 
 {% if page.comments == true %}
   {% include comments.html %}

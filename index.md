@@ -5,8 +5,10 @@
 layout: home
 author_profile: true
 title: Purpose of this website
+header: 
+  image: "/assets/images/Kayaking_teton.jpg"
 ---
 
 
 
-This site serves as a personal site for me, Zach Karol. I plan on adding blog posts which can be clicked on in posts. To learn more about me you can click on about me. This website will be periodically updated. 
+This site serves as a personal site for me, Zach Karol. I plan on adding blog posts which can be clicked on in posts. Enjoy!
