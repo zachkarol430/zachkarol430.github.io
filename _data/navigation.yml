@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "About Me"
-    url: http://zachkarol430.github.io/about/
   - title: "Posts"
     url: http://zachkarol430.github.io/posts
+  - title: "About Me"
+    url: http://zachkarol430.github.io/about/
   - title: "Home"
     url: https://www.zachkarol.com/
 

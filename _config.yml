@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Zach Karol"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Emory student trying to solve big problems one step at a time"
+  bio    : "Emory student"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

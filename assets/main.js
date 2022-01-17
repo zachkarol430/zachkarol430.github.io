@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Static comments
 // originally sourced from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 var addComment = function() {
@@ -127,3 +128,4 @@ var addComment = function() {
     }
   }
 }();
+
