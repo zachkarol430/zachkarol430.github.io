@@ -25,6 +25,28 @@ carousels:
     - image: /assets/images/National-parks/badlands/gofer.jpg
     - image: /assets/images/National-parks/badlands/sceneic1.jpg
     - image: /assets/images/National-parks/badlands/video.gif
+  - images: ## Yellowstone (5)
+    - image: /assets/images/National-parks/yellowstone/scenic1.JPG
+    - image: /assets/images/National-parks/yellowstone/buffalo.jpg
+    - image: /assets/images/National-parks/yellowstone/scenic4.JPG
+    - image: /assets/images/National-parks/yellowstone/geyeser.JPG
+    - image: /assets/images/National-parks/yellowstone/scenic2.JPG
+    - image: /assets/images/National-parks/yellowstone/scenic3.JPG
+  - images: ## Teton (6)
+    - image: /assets/images/National-parks/teton/scenic1.jpg
+    - image: /assets/images/National-parks/teton/lake1.jpg
+    - image: /assets/images/National-parks/teton/lake2.jpg
+    - image: /assets/images/National-parks/teton/scenic2.jpg
+    # - image: /assets/images/National-parks/teton/video_lake.gif
+  - images: ## Canyonland (7)
+    - image: /assets/images/National-parks/canyonland/scenic1.JPG
+    - image: /assets/images/National-parks/canyonland/scenic2.jpg
+    - image: /assets/images/National-parks/canyonland/scenic3.jpg
+    - image: /assets/images/National-parks/canyonland/scenic4.jpg
+  - images: ## Arches (8)
+    - image: /assets/images/National-parks/Arches/arch1.JPG
+    - image: /assets/images/National-parks/Arches/arch2.JPG
+    - image: /assets/images/National-parks/Arches/group.JPG
 ---
 
 
@@ -51,6 +73,28 @@ Again a mediocre national park
 {% include carousel.html height="80" unit="%" duration="100000" number="4" %}
 
 Amazing national park. One of my favorites. Highly recommend Sage Creek Campground. 
+
+## Yellowstone
+{% include carousel.html height="80" unit="%" duration="100000" number="5" %}
+
+Again an amazing national park. I wish I spent more time there. I will be back soon.
+
+## Grand Teton
+{% include carousel.html height="80" unit="%" duration="100000" number="6" %}
+
+Another amazing national park. Really good hiking.
+
+## Canyonland
+{% include carousel.html height="80" unit="%" duration="100000" number="7" %}
+
+Pretty great. Had low expectations, but it ended up being amazing
+
+## Arches
+{% include carousel.html height="80" unit="%" duration="100000" number="8" %}
+
+Was not there for a long time, but was pretty cool. I am in the middle in the third picture.
+
+
 
 
 {% if page.comments == true %}
