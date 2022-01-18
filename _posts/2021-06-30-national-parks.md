@@ -18,12 +18,13 @@ carousels:
     - image: /assets/images/National-parks/Indiana_dunes/group_pic.JPG
     - image:  /assets/images/National-parks/Indiana_dunes/beach2.PNG
   - images: ##Badlands (4)
-    - image: /assets/images/National-parks/badlands/sceneic1.jpg
     - image: /assets/images/National-parks/badlands/sceneic2.jpg
     - image: /assets/images/National-parks/badlands/ram.JPG
     - image: /assets/images/National-parks/badlands/scenic3.jpg
     - image: /assets/images/National-parks/badlands/sceneic4.jpg
     - image: /assets/images/National-parks/badlands/gofer.jpg
+    - image: /assets/images/National-parks/badlands/sceneic1.jpg
+    - image: /assets/images/National-parks/badlands/video.gif
 ---
 
 
