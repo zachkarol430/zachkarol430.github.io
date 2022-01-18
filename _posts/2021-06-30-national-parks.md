@@ -24,7 +24,6 @@ carousels:
     - image: /assets/images/National-parks/badlands/scenic3.jpg
     - image: /assets/images/National-parks/badlands/sceneic4.jpg
     - image: /assets/images/National-parks/badlands/gofer.jpg
-    - video: /assets/images/National-parks/badlands/video.MP4
 ---
 
 
