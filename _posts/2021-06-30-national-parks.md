@@ -17,6 +17,14 @@ carousels:
     - image: /assets/images/National-parks/Indiana_dunes/beach.JPG
     - image: /assets/images/National-parks/Indiana_dunes/group_pic.JPG
     - image:  /assets/images/National-parks/Indiana_dunes/beach2.PNG
+  - images: ##Badlands (4)
+    - image: /assets/images/National-parks/badlands/sceneic1.jpg
+    - image: /assets/images/National-parks/badlands/sceneic2.jpg
+    - image: /assets/images/National-parks/badlands/ram.JPG
+    - image: /assets/images/National-parks/badlands/scenic3.jpg
+    - image: /assets/images/National-parks/badlands/sceneic4.jpg
+    - image: /assets/images/National-parks/badlands/gofer.jpg
+    - video: /assets/images/National-parks/badlands/video.MP4
 ---
 
 
@@ -27,7 +35,7 @@ Here are some of national parks I have been to. I plan on adding to this in near
 ## Acadia
 {% include carousel.html height="70" unit="%" duration="100000" number= "1" %}
 
-These were taken in 2018
+These were taken in 2018. Pretty awesome national park!
 
 ## Cuyahoga
 {% include carousel_small.html height="70" unit="%" duration="100000" number="2" %}
@@ -38,6 +46,12 @@ In all honestly was quite a boring national park
 {% include carousel_small.html height="55" unit="%" duration="100000" number="3" %}
 
 Again a mediocre national park
+
+## Badlands 
+{% include carousel.html height="80" unit="%" duration="100000" number="4" %}
+
+Amazing national park. One of my favorites. Highly recommend Sage Creek Campground. 
+
 
 {% if page.comments == true %}
   {% include comments.html %}
