@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: National Parks Blog
+title: National Parks
 comments: true
 carousels:
   - images: ## acadia (1)
@@ -9,6 +9,14 @@ carousels:
     - image:  /assets/images/National-parks/Acadia/scenic_1.jpg
     - image: /assets/images/National-parks/Acadia/scenic2.jpg
     - image: /assets/images/National-parks/Acadia/scenic3.jpg
+  - images: ## cuyohoga (2)
+    - image: /assets/images/National-parks/cuyohoga/falls1.jpg
+    - image: /assets/images/National-parks/cuyohoga/falls2.jpg
+    - image:  /assets/images/National-parks/cuyohoga/NP_sign.jpg
+  - images: ## Indiana sand dunes (3)
+    - image: /assets/images/National-parks/Indiana_dunes/beach.JPG
+    - image: /assets/images/National-parks/Indiana_dunes/group_pic.JPG
+    - image:  /assets/images/National-parks/Indiana_dunes/beach2.PNG
 ---
 
 
@@ -17,10 +25,19 @@ carousels:
 Here are some of national parks I have been to. I plan on adding to this in near future as a visit more parks
 
 ## Acadia
-  {% include carousel.html height="100" unit="%" duration="100000" number="1" %}
+{% include carousel.html height="70" unit="%" duration="100000" number= "1" %}
 
 These were taken in 2018
 
+## Cuyahoga
+{% include carousel_small.html height="70" unit="%" duration="100000" number="2" %}
+
+In all honestly was quite a boring national park
+
+## Indiana sand dunes
+{% include carousel_small.html height="55" unit="%" duration="100000" number="3" %}
+
+Again a mediocre national park
 
 {% if page.comments == true %}
   {% include comments.html %}
