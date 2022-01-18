@@ -1,6 +1,8 @@
 ---
 layout: posts
-title: Movie website 
+title: Movie website
+tags:
+  - projects 
 comments: true
 ---
 

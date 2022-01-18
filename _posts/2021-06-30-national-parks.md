@@ -2,6 +2,8 @@
 layout: posts
 title: National Parks
 comments: true
+tags:
+  - personal
 carousels:
   - images: ## acadia (1)
     - image: /assets/images/National-parks/Acadia/zach_karol_2018.JPG
