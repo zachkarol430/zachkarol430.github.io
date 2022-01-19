@@ -32,8 +32,8 @@ carousels:
     - image: /assets/images/National-parks/yellowstone/buffalo.jpg
     - image: /assets/images/National-parks/yellowstone/scenic4.JPG
     - image: /assets/images/National-parks/yellowstone/geyeser.JPG
-    - image: /assets/images/National-parks/yellowstone/scenic2.JPG
-    - image: /assets/images/National-parks/yellowstone/scenic3.JPG
+    - image: /assets/images/National-parks/yellowstone/scenic2.jpg
+    - image: /assets/images/National-parks/yellowstone/scenic3.jpg
   - images: ## Teton (6)
     - image: /assets/images/National-parks/teton/scenic1.jpg
     - image: /assets/images/National-parks/teton/lake1.jpg

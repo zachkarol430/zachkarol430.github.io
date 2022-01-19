@@ -26,9 +26,12 @@ I am currently facing issues with movies which are in franchises and those that 
 
 If there are any issues or bugs please let me know in the comments
 
-Last note: The website may take time to boot up, so be patient
+## Last note: The website may take time to boot up, so be patient
 
-# [movie site](http://movie-app.zachkarol.com/){:target="_blank"}
+ <br> <br />
+
+
+{% include buttons/Movie_app_button.html %}
 
 {% if page.comments == true %}
   {% include comments.html %}
