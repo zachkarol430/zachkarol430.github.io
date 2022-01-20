@@ -1,6 +1,5 @@
 'use strict';
 
-
 // Static comments
 // originally sourced from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 var addComment = function() {
@@ -17,7 +16,6 @@ var addComment = function() {
 
   var form = select('.js-form');
   form.doReset = function() {
-    submitButton.innerHTML = "Submit";
     this.classList.remove('disabled');
     if (window.grecaptcha) {
       grecaptcha.reset();
@@ -26,9 +24,8 @@ var addComment = function() {
 
   form.addEventListener('submit', function (event) {
     event.preventDefault();
+    submitButton.classList.add("button--loading")
 
-    submitButton.innerHTML =
-      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...';
 
     var errorHandler = function(title, err) {
       console.log(err);
@@ -46,7 +43,7 @@ var addComment = function() {
     }).then(
       function (data) {
         if (data.ok) {
-          showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/zachkarol430/zachkarol430.github.io/pulls">pending</a>. It will appear when approved.');
+          showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/travisdowns/travisdowns.github.io/pulls">pending</a>. It will appear when approved.');
           form.reset();
           form.doReset();
         } else {
@@ -70,6 +67,7 @@ var addComment = function() {
     select('.js-modal-title').innerText = title;
     select('.js-modal-text').innerHTML = message;
     select('body').classList.add('show-modal');
+    submitButton.classList.remove("button--loading")
   }
 
   // Staticman comment replies, from https://github.com/mmistakes/made-mistakes-jekyll
@@ -128,4 +126,3 @@ var addComment = function() {
     }
   }
 }();
-
