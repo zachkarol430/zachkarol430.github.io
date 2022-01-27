@@ -2,7 +2,7 @@
 layout: posts
 title: Movie website
 tags:
-  - projects 
+  - Projects 
 comments: true
 ---
 
