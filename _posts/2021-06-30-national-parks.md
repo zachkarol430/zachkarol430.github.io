@@ -59,46 +59,46 @@ Here are some of national parks I have been to. I plan on adding to this in near
 ## Acadia
 {% include carousel.html height="70" unit="%" duration="100000" number= "1" %}
 
-These were taken in 2018. Pretty awesome national park!
+These were taken in 2018. Pretty awesome national park! This park was a lot of fun and a lot of short trails. 
 
 ## Cuyahoga
 {% include carousel_small.html height="70" unit="%" duration="100000" number="2" %}
 
-In all honestly was quite a boring national park
+In all honestly was quite a boring national park. The waterfalls were worth seeing, but everything else was pretty generic. The highway can be easily seen from somes trails and this park did not feel remote.
 
 ## Indiana sand dunes
 {% include carousel_small.html height="55" unit="%" duration="100000" number="3" %}
 
-Again a mediocre national park
+Again a mediocre national park. I would honestly skip this park unless you want to just see a regular beach. 
 
 ## Badlands 
 {% include carousel.html height="80" unit="%" duration="100000" number="4" %}
 
-Amazing national park. One of my favorites. Highly recommend Sage Creek Campground. 
+Amazing national park. One of my favorites. Highly recommend Sage Creek Campground. This park was the most unique thing I have ever seen and the contrast between the plains and the badlands is insane.
 
 ## Yellowstone
 {% include carousel.html height="80" unit="%" duration="100000" number="5" %}
 
-Again an amazing national park. I wish I spent more time there. I will be back soon.
+spectacular national park. I wish I spent more time there. I will be back soon. This park has everything. Hiking, cool natural features, and plently of animals. Go early as the park gets busy really quickly. 
 
 ## Grand Teton
 {% include carousel.html height="80" unit="%" duration="100000" number="6" %}
 
-Another amazing national park. Really good hiking.
+Another amazing national park. Really good hiking. I recommend delta lake hike. It was tough but worth it. 
 
 ## Canyonland
 {% include carousel.html height="80" unit="%" duration="100000" number="7" %}
 
-Pretty great. Had low expectations, but it ended up being amazing
+Pretty great. Had low expectations, but it ended up being amazing. This park was very bare bones, but the views were spectacular
 
 ## Arches
 {% include carousel.html height="80" unit="%" duration="100000" number="8" %}
 
-Was not there for a long time, but was pretty cool. I am in the middle in the third picture.
-
+Was not there for a long time, but was pretty cool. I am in the middle in the third picture. The whole park can easily be seen in a day. 
 
 
 
 {% if page.comments == true %}
   {% include comments.html %}
 {% endif %}
+

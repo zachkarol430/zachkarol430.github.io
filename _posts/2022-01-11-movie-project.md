@@ -28,7 +28,9 @@ If there are any issues or bugs please let me know in the comments
 
 ## Last note: The website may take time to boot up, so be patient
 
- <br> <br />
+new note: added video games, but still want to expand to do more automatic data processing. May try to scrape country info is right now sites utility is limited but has potential 
+
+ <br>
 
 
 {% include buttons/Movie_app_button.html %}

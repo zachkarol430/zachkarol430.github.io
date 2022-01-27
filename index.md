@@ -12,3 +12,18 @@ header:
 
 
 This site serves as a personal site for me, Zach Karol. I plan on adding blog posts which can be clicked on in posts. Enjoy!
+
+<div align="center"> 
+<h2> Explore</h2>
+ </div>
+
+<br>
+<!-- fa-fw adds spacing but might need more -->
+
+<div align="center" class= "icons">
+<a href= "https://github.com/zachkarol430/staph"> <i class="fab fa-fw fa-r-project"></i> </a>
+<a href= "https://www.zachkarol.com/about/"> <i class= "fas fa-fw fa-male"></i> </a>
+<a href="https://www.zachkarol.com/staph-research/"> <i class="fas fa-fw fa-dna"></i> </a>
+<a href="https://www.zachkarol.com/national-parks/"> <i class="fas fa-fw fa-hiking"></i> </a>
+<a href="https://www.zachkarol.com/movie-project/"> <i class="fas fa-fw fa-film"></i> </a>
+</div>

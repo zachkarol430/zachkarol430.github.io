@@ -1,0 +1,30 @@
+$icon_color: #003e6d !default;
+$font_size: 80px !default;
+
+// only edits home screen icons
+.icons{
+
+.fa-fw{
+    text-align: center;
+    width: 1.5em;
+}
+.fab{
+    color: $icon_color;
+    font-size: $font_size;
+  }
+
+.fab:hover{
+    opacity: 0.7;
+}
+
+.fas{
+    color: $icon_color;
+    font-size: $font_size;
+  }
+
+.fas:hover{
+    opacity: 0.5;
+}
+
+}
+//   might style each to have cool colors

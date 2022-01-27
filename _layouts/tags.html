@@ -11,8 +11,10 @@ layout: archive
   {% endif %}
 {% endfor %}
 
-<!-- note you removed reverse thing go back to source code as needed -->
+<!-- note you UNremoved reverse thing go back to source code as needed -->
 <!-- this is for top part, use if you get many posts -->
+
+<!-- you need to mess around with this to get order you want -->
 
 <!-- <ul class="taxonomy__index">
   {% for i in (1..tags_max) reversed %}
@@ -30,7 +32,7 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..tags_max)  %}
-  {% for tag in site.tags %}
+  {% for tag in site.tags reversed %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
