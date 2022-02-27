@@ -12,3 +12,6 @@ Currently looking at how staph genes accessory(not all staph have these genes) s
 
 I will be uploading a new github repository with my machine learning model for sequence type, if I can make sure it makes sense. Stay tuned!
 
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
