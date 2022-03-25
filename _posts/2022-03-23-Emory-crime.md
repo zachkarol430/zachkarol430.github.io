@@ -12,3 +12,7 @@ I have used selenium to get all of Emorys crime data. This crime data is stored 
 
 <iframe seamless
 src="/assets/leaflet.html" width="100%" height="500"></iframe>
+
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
