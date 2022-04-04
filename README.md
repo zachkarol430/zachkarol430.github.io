@@ -1,1 +1,1 @@
-Work in progress
+This is the github repo for my site zachkarol.com
