@@ -1,5 +1,5 @@
 ---
-permalink: /shiny/
+permalink: /emory_crime/
 author_profile: False
 ---
 
