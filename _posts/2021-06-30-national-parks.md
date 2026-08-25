@@ -28,7 +28,6 @@ tags:
     <summary><span>July 4, 2018</span><h3>Acadia</h3><em>View photos</em></summary>
     <div class="park-gallery">
       <img src="/assets/images/National-parks/Acadia/zach_karol_2018.JPG" alt="Zach at Acadia National Park" loading="lazy">
-      <img src="/assets/images/National-parks/Acadia/cliffs_maine.jpg" alt="Cliffs at Acadia" loading="lazy">
       <img src="/assets/images/National-parks/Acadia/scenic_1.jpg" alt="Coastline at Acadia" loading="lazy">
       <img src="/assets/images/National-parks/Acadia/scenic2.jpg" alt="Landscape at Acadia" loading="lazy">
       <img src="/assets/images/National-parks/Acadia/scenic3.jpg" alt="Rocky coast at Acadia" loading="lazy">
@@ -168,7 +167,7 @@ tags:
   <details class="park-entry" id="mount-rainier">
     <summary><span>June 27, 2024</span><h3>Mount Rainier</h3><em>View photos</em></summary>
     <div class="park-gallery">
-      <img src="/assets/images/National-parks/Mount_Rainier/narada-falls.jpg" alt="Narada Falls in Mount Rainier National Park" loading="lazy">
+      <img src="/assets/images/National-parks/Mount_Rainier/narada-falls-new.png" alt="Narada Falls in Mount Rainier National Park" loading="lazy">
       <img src="/assets/images/National-parks/Mount_Rainier/mountain-meadow.jpg" alt="Mount Rainier rising above an alpine meadow" loading="lazy">
       <img src="/assets/images/National-parks/Mount_Rainier/rainier-trail-portrait.jpg" alt="Portrait on a trail below Mount Rainier" loading="lazy">
     </div>
