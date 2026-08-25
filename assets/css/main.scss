@@ -125,6 +125,7 @@ a { color: var(--accent); }
 .author__actions .author__home:focus { color: #000 !important; }
 .author__actions .btn { color: #2563a8; }
 .author__actions .btn { margin: 0; cursor: pointer; }
+.author__actions .btn.open::before { pointer-events: none; }
 .author__home:hover, .author__actions .btn:hover { background: var(--accent); text-decoration: none; }
 .author__actions .btn:hover { color: #fff; }
 
