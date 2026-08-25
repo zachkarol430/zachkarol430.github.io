@@ -1,31 +1,54 @@
-<section class="comments" id="comment-section">
-    <hr>
-    {% if site.data.comments[page.slug] %}
-    <!-- Existing comments -->
-    <div class="comments__existing">
-      <h2>Comments</h2>
-      {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_uid == ''" %}
-      {% assign comments_by_date = comments | sort: 'date' | reverse %}
-      <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
-      {% for comment in comments_by_date %}
-      {%- assign email           = comment.email %}
-      {%- assign name            = comment.name %}
-      {%- assign url             = comment.url %}
-      {%- assign date            = comment.date %}
-      {%- assign message         = comment.message %}
-      {%- assign uid             = comment._id %}
-      {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
-      {% endfor %}
-    </div>
+<section class="comments" id="comments" aria-labelledby="comments-title">
+  <h2 id="comments-title">Comments</h2>
+  {% assign comments_slug = include.comments_slug | default: page.slug %}
+  {% assign preview_limit = include.preview_limit | default: 9999 %}
+  {% if site.data.comments[comments_slug] %}
+  <div class="comments__archive">
+    {% assign comments = site.data.comments[comments_slug] | where_exp: "item", "item.replying_to_uid == ''" %}
+    {% assign comments_by_date = comments | sort: 'date' | reverse %}
+    {% for comment in comments_by_date %}
+      {% if forloop.index > preview_limit %}<div class="comments__extra" hidden>{% endif %}
+      {%- assign email = comment.email %}
+      {%- assign name = comment.name %}
+      {%- assign url = comment.url %}
+      {%- assign date = comment.date %}
+      {%- assign message = comment.message %}
+      {%- assign uid = comment._id %}
+      {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message hide_replies=include.hide_replies comments_slug=comments_slug %}
+      {% if forloop.index > preview_limit %}</div>{% endif %}
+    {% endfor %}
+    {% if comments_by_date.size > preview_limit %}
+      <button class="comments__toggle" type="button" aria-expanded="false">Show more</button>
     {% endif %}
-  
-    <!-- New comment form -->
-    <div id="respond" class="comment__new">
-      {% include comment_form.html %}
-    </div>
-  </section>
-  
-  <script src="{{ '/assets/main.js' | relative_url }}"></script>
-  {% if site.reCaptcha.enabled %}
-  <script src="https://www.google.com/recaptcha/api.js"></script>
+  </div>
   {% endif %}
+  <div class="comments__new">
+    <p class="section-kicker">Join the conversation</p>
+    <p class="comments__note">Sign in with GitHub to leave a comment. Comments are public and connected to this page.</p>
+    <script src="https://utteranc.es/client.js"
+            repo="zachkarol430/zachkarol430.github.io"
+            issue-term="pathname"
+            label="comment"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript><p>JavaScript is required to load comments.</p></noscript>
+  </div>
+</section>
+{% if comments_by_date.size > preview_limit %}
+<script>
+  (function () {
+    var section = document.getElementById('comments');
+    if (!section) return;
+    var button = section.querySelector('.comments__toggle');
+    if (!button) return;
+    button.addEventListener('click', function () {
+      var expanded = button.getAttribute('aria-expanded') === 'true';
+      section.querySelectorAll('.comments__extra').forEach(function (comment) { comment.hidden = expanded; });
+      button.setAttribute('aria-expanded', String(!expanded));
+      button.textContent = expanded ? 'Show more' : 'Show fewer';
+    });
+  }());
+</script>
+{% endif %}

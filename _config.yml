@@ -41,14 +41,12 @@ github: [metadata]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - work
 
 # Plugins (previously gems:)
 plugins:
@@ -61,8 +59,8 @@ plugins:
 
 author:
   name   : "Zach Karol"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Emory student"
+  avatar : "/assets/images/home-profile.jpg"
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -70,9 +68,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zachary-karol-4558871b6/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/zachkarol02"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:zachkarol430@gmail.com"
 
 google_site_verification : "google-site-verification=Y3B3ENcm5gne2TMSuchOeVGwlgOPGTxB1vh--mpE1yQ"
 

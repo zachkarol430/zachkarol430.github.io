@@ -1,31 +1,40 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-author_profile: true
+author_profile: false
 title: Home
-header: 
-  image: "assets/images/Kayaking_teton.JPG"
+classes: wide
 ---
 
+<div class="profile-home">
+  {% include profile_identity.html %}
 
+  <main class="profile-home__content">
+    <section class="home-intro" id="about">
+      <h2>About me</h2>
+      <p>I studied Quantitative Sciences at Emory University with a focus in biology. I’m interested in working with all kinds of data, whether it comes from biology, finance, or geospatial analysis. I currently work at Capital One as a business analyst, where I focus on credit line increase requests.</p>
+      <p>This website is where I share ongoing projects, research, and photographs from the places I’ve explored.</p>
+    </section>
 
-This site serves as a personal site for me, Zach Karol. I plan on adding blog posts which can be clicked on in posts. Enjoy!
+    <section class="selected-work" aria-labelledby="selected-work-title">
+      <h2 id="selected-work-title">Projects</h2>
 
-<div align="center"> 
-<h2> Explore</h2>
- </div>
+      <a class="work-row" href="https://emory-crime-map.vercel.app/">
+        <span class="work-row__mark" aria-hidden="true">⛓</span>
+        <span class="work-row__body"><strong>Emory Crime</strong><small>Mapping public campus crime data.</small></span>
+        <span class="work-row__arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="work-row" href="{{ '/national-parks/' | relative_url }}">
+        <span class="work-row__mark" aria-hidden="true">🌲</span>
+        <span class="work-row__body"><strong>National Parks</strong><small>Photographs from the landscapes I visit.</small></span>
+        <span class="work-row__arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="work-row" href="{{ '/staph-research/' | relative_url }}">
+        <span class="work-row__mark" aria-hidden="true"><i class="fas fa-dna"></i></span>
+        <span class="work-row__body"><strong>Staph Genomics</strong><small>Machine learning and dimensionality reduction for bacterial genomes.</small></span>
+        <span class="work-row__arrow" aria-hidden="true">→</span>
+      </a>
+    </section>
 
-<br>
-<!-- fa-fw adds spacing but might need more -->
-
-<script src="https://kit.fontawesome.com/7e5c94017b.js" crossorigin="anonymous"></script>
-
-<div align="center" class= "icons">
-<a href= "https://www.zachkarol.com/emory_crime/"  style="text-decoration: none;"> <i class="fas fa-fw  fa-handcuffs"></i> </a>
-<a href= "https://www.zachkarol.com/about/"  style="text-decoration: none;"> <i class= "fas fa-fw fa-male"></i> </a>
-<a href="https://www.zachkarol.com/staph-research/"  style="text-decoration: none;"> <i class="fas fa-fw fa-dna"></i> </a>
-<a href="https://www.zachkarol.com/national-parks/"  style="text-decoration: none;"> <i class="fas fa-fw fa-hiking"></i> </a>
-<a href="https://www.zachkarol.com/movie-project/"  style="text-decoration: none;"> <i class="fas fa-fw fa-film"></i> </a>
+    {% include comments.html comments_slug="about" preview_limit=3 %}
+  </main>
 </div>

@@ -1,0 +1,34 @@
+{% assign author = site.author %}
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+  {% if author.avatar %}
+    <div class="author__avatar">
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="{{ '/' | relative_url }}" itemprop="url">{{ author.name }}</a>
+    </h3>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <div class="author__actions">
+      <a class="author__home" href="{{ '/' | relative_url }}">Home</a>
+      <button class="btn btn--inverse">Follow</button>
+    </div>
+    <ul class="author__urls social-icons">
+      {% for link in author.links %}
+        <li>
+          <a href="{{ link.url }}" rel="nofollow noopener noreferrer me">
+            {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+            <span class="label">{{ link.label }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
