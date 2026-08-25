@@ -47,9 +47,9 @@ tags:
   <details class="park-entry" id="indiana-dunes">
     <summary><span>July 12, 2021</span><h3>Indiana Dunes</h3><em>View photos</em></summary>
     <div class="park-gallery">
+      <img src="/assets/images/National-parks/Indiana_dunes/group_pic.JPG" alt="Group at Indiana Dunes" loading="lazy">
       <img src="/assets/images/National-parks/Indiana_dunes/beach.JPG" alt="Beach at Indiana Dunes" loading="lazy">
       <img src="/assets/images/National-parks/Indiana_dunes/beach2.PNG" alt="Lake Michigan at Indiana Dunes" loading="lazy">
-      <img src="/assets/images/National-parks/Indiana_dunes/group_pic.JPG" alt="Group at Indiana Dunes" loading="lazy">
     </div>
   </details>
 
@@ -107,9 +107,9 @@ tags:
   <details class="park-entry" id="arches">
     <summary><span>July 27, 2021</span><h3>Arches</h3><em>View photos</em></summary>
     <div class="park-gallery">
+      <img src="/assets/images/National-parks/Arches/group.JPG" alt="Group at Arches National Park" loading="lazy">
       <img src="/assets/images/National-parks/Arches/arch1.JPG" alt="Rock arch at Arches" loading="lazy">
       <img src="/assets/images/National-parks/Arches/arch2.JPG" alt="Arch formation at Arches" loading="lazy">
-      <img src="/assets/images/National-parks/Arches/group.JPG" alt="Group at Arches National Park" loading="lazy">
     </div>
   </details>
 
@@ -133,8 +133,8 @@ tags:
   <details class="park-entry" id="shenandoah">
     <summary><span>May 5, 2023</span><h3>Shenandoah</h3><em>View photos</em></summary>
     <div class="park-gallery">
-      <img src="/assets/images/National-parks/Shenandoah/valley-overlook.jpg" alt="Shenandoah Valley viewed from Skyline Drive" loading="lazy">
       <img src="/assets/images/National-parks/Shenandoah/blue-ridge-portrait-new.jpg" alt="Zach at a Blue Ridge overlook in Shenandoah National Park" loading="lazy">
+      <img src="/assets/images/National-parks/Shenandoah/valley-overlook.jpg" alt="Shenandoah Valley viewed from Skyline Drive" loading="lazy">
       <img src="/assets/images/National-parks/Shenandoah/mountain-view.jpg" alt="Blue Ridge mountain landscape in Shenandoah" loading="lazy">
     </div>
   </details>
@@ -167,18 +167,18 @@ tags:
   <details class="park-entry" id="mount-rainier">
     <summary><span>June 27, 2024</span><h3>Mount Rainier</h3><em>View photos</em></summary>
     <div class="park-gallery">
+      <img src="/assets/images/National-parks/Mount_Rainier/rainier-trail-portrait.jpg" alt="Portrait on a trail below Mount Rainier" loading="lazy">
       <img src="/assets/images/National-parks/Mount_Rainier/narada-falls-new.png" alt="Narada Falls in Mount Rainier National Park" loading="lazy">
       <img src="/assets/images/National-parks/Mount_Rainier/mountain-meadow.jpg" alt="Mount Rainier rising above an alpine meadow" loading="lazy">
-      <img src="/assets/images/National-parks/Mount_Rainier/rainier-trail-portrait.jpg" alt="Portrait on a trail below Mount Rainier" loading="lazy">
     </div>
   </details>
 
   <details class="park-entry" id="glacier">
     <summary><span>July 1, 2024</span><h3>Glacier</h3><em>View photos</em></summary>
     <div class="park-gallery">
+      <img src="/assets/images/National-parks/Glacier/glacier-lake-selfie.jpg" alt="Zach overlooking a mountain lake in Glacier National Park" loading="lazy">
       <img src="/assets/images/National-parks/Glacier/2024_3457.jpg" alt="Alpine lake in Glacier National Park" loading="lazy">
       <img src="/assets/images/National-parks/Glacier/2024_3464.jpg" alt="Mountain trail in Glacier National Park" loading="lazy">
-      <img src="/assets/images/National-parks/Glacier/glacier-lake-selfie.jpg" alt="Zach overlooking a mountain lake in Glacier National Park" loading="lazy">
       <img src="/assets/images/National-parks/Glacier/2024_3509.jpg" alt="High country in Glacier National Park" loading="lazy">
     </div>
   </details>
@@ -229,9 +229,9 @@ tags:
   <details class="park-entry" id="capitol-reef">
     <summary><span>April 20, 2026</span><h3>Capitol Reef</h3><em>View photos</em></summary>
     <div class="park-gallery">
+      <img src="/assets/images/National-parks/Capitol_Reef/cassidy-arch-portrait.jpg" alt="Zach standing above Cassidy Arch in Capitol Reef" loading="lazy">
       <img src="/assets/images/National-parks/Capitol_Reef/canyon-overlook.jpg" alt="Overlook above a winding canyon in Capitol Reef" loading="lazy">
       <img src="/assets/images/National-parks/Capitol_Reef/sandstone-domes.jpg" alt="Sandstone domes in Capitol Reef" loading="lazy">
-      <img src="/assets/images/National-parks/Capitol_Reef/cassidy-arch-portrait.jpg" alt="Zach standing above Cassidy Arch in Capitol Reef" loading="lazy">
       <img src="/assets/images/National-parks/Capitol_Reef/canyon-trail.jpg" alt="Trail through the cliffs of Capitol Reef" loading="lazy">
     </div>
   </details>
