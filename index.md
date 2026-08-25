@@ -18,7 +18,7 @@ classes: wide
     <section class="selected-work" aria-labelledby="selected-work-title">
       <h2 id="selected-work-title">Projects</h2>
 
-      <a class="work-row" href="https://emory-crime-map.vercel.app/">
+      <a class="work-row" href="https://crime.zachkarol.com/">
         <span class="work-row__mark" aria-hidden="true">⛓</span>
         <span class="work-row__body"><strong>Emory Crime</strong><small>Mapping public campus crime data.</small></span>
         <span class="work-row__arrow" aria-hidden="true">→</span>
