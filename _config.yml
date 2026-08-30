@@ -62,15 +62,9 @@ author:
   avatar : "/assets/images/home-profile.jpg"
   bio    : ""
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/zachkarol430"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zachary-karol-4558871b6/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:zachkarol430@gmail.com"
 
 google_site_verification : "google-site-verification=Y3B3ENcm5gne2TMSuchOeVGwlgOPGTxB1vh--mpE1yQ"
 
