@@ -18,17 +18,7 @@
   <div class="author__urls-wrapper">
     <div class="author__actions">
       <a class="author__home" href="{{ '/' | relative_url }}">Home</a>
-      <button class="btn btn--inverse">Follow</button>
+      <a class="btn btn--inverse" href="https://www.linkedin.com/in/zachary-karol-4558871b6/" rel="nofollow noopener noreferrer me">Follow</a>
     </div>
-    <ul class="author__urls social-icons">
-      {% for link in author.links %}
-        <li>
-          <a href="{{ link.url }}" rel="nofollow noopener noreferrer me">
-            {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
-            <span class="label">{{ link.label }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
   </div>
 </div>

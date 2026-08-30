@@ -8,7 +8,6 @@ tags:
 ---
 
 <div class="parks-intro">
-  <p class="section-kicker">The long way around</p>
   <h2>My goal is to visit every U.S. national park.</h2>
   <p>This map is a living record of the parks I’ve explored. Select a marker to see the park and jump to my photographs and notes.</p>
   <div class="parks-progress" aria-label="20 of 63 U.S. national parks visited">
@@ -21,7 +20,6 @@ tags:
 <p class="parks-map__hint">Select any green marker to explore that park.</p>
 
 <section class="park-journal" aria-labelledby="park-journal-title">
-  <p class="section-kicker">Field journal</p>
   <h2 id="park-journal-title">Places I’ve been</h2>
 
   <details class="park-entry" id="acadia">
